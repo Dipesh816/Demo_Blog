@@ -1,0 +1,92 @@
+.singlePst{
+    flex: 9;
+}
+.singlePstWrapper{
+    padding: 20px;
+    padding-right: 0;
+    display: flex;
+    flex-direction: column;
+
+}
+.singlePstImg{
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.singlePstTitle{
+    text-align: center;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.singlePstEdit{
+    float: right;
+    font-size: 20px;
+
+}
+
+.singlePstIcon{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.singlePstIcon:first-child{
+    color: blue;
+}
+
+.singlePstIcon:first-last{
+    color: red;
+}
+.singlePstInfo{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: teal;
+}
+.singlePstDesc{
+    color: #666;
+    font-size: 19px;
+    line-height: 25px;
+
+}
+.singlePstDesc::first-letter{
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.singlePstTitleInput{
+    text-align: center;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.singlePstTitleInput:focus{
+   outline: none;
+}
+
+.singlePstDescInput{
+    border: none;
+    color: #666;
+    font-size: 19px;
+    line-height: 25px;
+}
+.singlePstDescInput{
+    outline: none;
+}
+.Update{
+    width: 100px;
+    border: none;
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-end;
+    margin-top: 20px;
+}
