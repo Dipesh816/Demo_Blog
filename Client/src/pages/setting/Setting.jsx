@@ -40,8 +40,7 @@ export default function Setting() {
     <div className='settings'>
         <div className="settingsWrapper">
             <div className="settingsTitle">
-                {/* <span className="settingUpdateTitle">Update Account</span>
-                <span className="settingDeleteTitle">Delete Account</span> */}
+                
             </div>
             <form className='settingsForm' onSubmit={handleSubmit}>
                 <label >Profile Picture</label>
